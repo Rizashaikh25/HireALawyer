@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+#RewriteRule ^Faqs$ Faqs.php[L] To Hide extension of specific file
+
+#Error
+ErrorDocument 404 /law/errors/404.php
+
+#
+Options -Indexes
+
+ Allow From All
+ Satisfy Any

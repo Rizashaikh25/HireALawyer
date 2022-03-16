@@ -1,0 +1,19 @@
+How to run Hire A Lawyer! Project
+
+1.Download the the zip file
+2.Extract the file and copy Law folder
+3.Paste inside root directory( xampp - xamp/htdocs/law)
+4.Create a database with name [law]
+5.Import law.sql file(given inside the zip package in DATABASE file folder)
+6.Run the script http://localhost/law (frontend)
+7.Run the script http://localhost/law/admin (Admin)
+
+UserName :
+Yet to create
+
+Password :
+Yet to Create
+
+// Requirements :
+
+To make sure Fluent working of the website, Provide stable  internet conection.
